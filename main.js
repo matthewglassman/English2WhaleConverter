@@ -10,5 +10,13 @@ let resultArray = [];
 //An array to iterate over each letter in the input variable.
 for (let i = 0; i < input.length; i++) {
     const letter = input[i];
-    console.log(letter);
+//    console.log(i);
+    for (let j = 0; j < vowels.length; j++) {
+        const foundVowel = vowels[j];
+ //       console.log(j);
+        if (letter === foundVowel) {
+            console.log(foundVowel);
+        }
+        
+    }
 }
