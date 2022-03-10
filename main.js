@@ -11,7 +11,7 @@ let resultArray = [];
 
 //An array to iterate over each letter in the input variable.
 for (let i = 0; i < input.length; i++) {
-    const letter = input[i];
+    const letter = input[i].toLowerCase();
     if (letter === 'e' || letter === 'u'){
         resultArray.push(letter);
     }
@@ -26,8 +26,9 @@ for (let i = 0; i < input.length; i++) {
     }
 
 }
-console.log(resultArray);
+//console.log(resultArray);
 
+//Take the vowels in resultArray variable and join them and make them all upper case.
 var resultString = resultArray.join('').toUpperCase();
 
 console.log(resultString);
