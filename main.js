@@ -15,8 +15,9 @@ for (let i = 0; i < input.length; i++) {
         const foundVowel = vowels[j];
  //       console.log(j);
         if (letter === foundVowel) {
-            console.log(foundVowel);
+            resultArray.push(foundVowel);
         }
         
     }
 }
+console.log(resultArray);
